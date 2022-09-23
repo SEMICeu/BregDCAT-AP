@@ -1,0 +1,45 @@
+<p>Version 1.02 of the&nbsp;BRegDCAT-AP&nbsp;specification.</p>
+
+<p>This version is the evolution of the 1.01 (aligned with SGD/TOOP), and including the feedback&nbsp;by Mr. Jianhua Yang. The main changes are related to the compatibility with DCAT-AP-2:</p>
+
+<ul>
+	<li>
+	<p>Class Media type or extent (<em>dct:MediaTypeOrExtent</em>) is now changed to Media type (<em>dct:MediaType</em>)</p>
+	</li>
+	<li>
+	<p>Changed cardinality of <em>accessURL</em>&nbsp;(Domain Distribution) to [1..n]</p>
+	</li>
+	<li>
+	<p>Alignment of UML diagram with the specification. All the classes now included,&nbsp;but not all linked to simplify readability.</p>
+	</li>
+	<li>
+	<p>Corrected the usage note of the dimension (<em>qb:dimension</em>)&nbsp;adding some examples.</p>
+	</li>
+	<li>
+	<p>Names of classes described in the controlled vocabularies now are normalised according to the rest of the specification.</p>
+	</li>
+	<li>
+	<p>The controlled vocabularies section now includes a more concrete text to express they are required.</p>
+	</li>
+	<li>
+	<p>Multiple cardinalities in optional properties in CatalogRecord.</p>
+	</li>
+	<li>
+	<p>The cardinality of <em>qb:componentRequired</em>&nbsp;is&nbsp;[0..1] now.</p>
+	</li>
+	<li>
+	<p>dcat:Dataset has two different identifiers (the main one: <em>dcterms:identifier</em>, and another identifier: <em>adms:identifier</em>)&nbsp;to be compatible with both and DCAT-AP and CPSV-AP.</p>
+	</li>
+	<li>
+	<p>The cardinality of dcat:compressFormat (domain Distribution) is [0..1].</p>
+	</li>
+	<li>
+	<p>dct:identifier [0..n] of LegalResource is now recommended,&nbsp;and the&nbsp;<em>dct:relation</em>&nbsp;with other resources is optional.</p>
+	</li>
+	<li>
+	<p>A Rule could be of multiple types&nbsp;(<em>dct:type</em>) [0..n].</p>
+	</li>
+	<li>
+	<p>Added a clarification text for the Registry Catalogue represented as a&nbsp;<em>dcat:Catalog</em>, but it is also considered&nbsp;a <em>cv:Output.&nbsp;</em>&nbsp;A footnote with more information was added to avoid confusion: "An instance of Registry Catalogue is considered to be also a <em>cv:Output</em> since it is the range of the property <em>cpsv:produces</em>." It is not mandatory to describe a catalogue as <em>cv:Output</em> explicitly (it is inferred since is the range of the property).</p>
+	</li>
+</ul>
