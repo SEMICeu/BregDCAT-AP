@@ -1,3 +1,4 @@
+![SEMIC Core Vocabulary](/semic-icon-small.png)
 # BregDCAT-AP
 
 This is the issue tracker for the maintenance of the BregDCAT-AP.
