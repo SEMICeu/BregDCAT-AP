@@ -3,7 +3,7 @@
 This is the issue tracker for the maintenance of the BregDCAT-AP.
 
 ## Structure of the repository
-/releases: Core Business releases (1.02, 1.03 etc), each release might have different distributions.
+/releases: BRegDCAT-AP releases (1.02, 1.03 etc), each release might have different distributions.
 
 ## License
 Copyright © 2024 European Union. All material in this repository is published under the licence CC-BY 4.0, unless explicitly otherwise mentioned. Any problems encountered, or suggestions for new functionalities can be submitted as issues on the BRegDCAT-AP repository on GitHub.
